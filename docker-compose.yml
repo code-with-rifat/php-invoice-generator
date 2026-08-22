@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  app:
+    image: php:8.2-fpm-alpine
+    restart: unless-stopped
+    volumes:
+      - .:/var/www
+    working_dir: /var/www
+    ports:
+      - "8000:8000"
+    command: php -S 0.0.0.0:8000 -t public
+    environment:
+      APP_ENV: local
+      DB_HOST: mysql
+      DB_DATABASE: app_db
+
+  mysql:
+    image: mysql:8.0
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: app_db
+      MYSQL_ROOT_PASSWORD: secret
+    ports:
+      - "3306:3306"
