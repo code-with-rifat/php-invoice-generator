@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 # PHP Automated PDF Invoice & Receipt Engine
 
@@ -12,7 +12,7 @@ Customizable PDF invoice and billing statement generator with multi-currency, ta
 
 ---
 
-## ðŸŒŸ Key Features
+## Key Features
 
 - **Modern Architecture:** Built with clean OOP principles and modern PHP 8.2+ features (Typed properties, Match expressions, Enums, Readonly classes).
 - **High Performance & Security:** Input sanitization, prepared statements, CSRF protection, and memory-safe design.
@@ -22,7 +22,7 @@ Customizable PDF invoice and billing statement generator with multi-currency, ta
 
 ---
 
-## ðŸš€ Getting Started
+## Getting Started
 
 ### Requirements
 - PHP >= 8.2
@@ -50,26 +50,26 @@ php cli.php migrate
 
 ---
 
-## ðŸ“ Directory Structure
+## Directory Structure
 
 `	ext
-â”œâ”€â”€ src/
-â”‚   â”œâ”€â”€ Controllers/        # Request Handlers & Business Controllers
-â”‚   â”œâ”€â”€ Models/             # Domain Entities & Database Wrappers
-â”‚   â”œâ”€â”€ Services/           # Reusable Application Services & Logic
-â”‚   â”œâ”€â”€ Middleware/         # HTTP Middleware & Request Filters
-â”‚   â””â”€â”€ Config/             # System Configuration & Database Connector
-â”œâ”€â”€ config/                 # Environment and App Config Files
-â”œâ”€â”€ tests/                  # PHPUnit Test Suite
-â”œâ”€â”€ public/                 # Web Entry Point (index.php)
-â”œâ”€â”€ .env.example            # Environment variables template
-â”œâ”€â”€ composer.json           # Dependency & Autoload definitions
-â””â”€â”€ README.md               # Documentation
+|-- src/
+|   |-- Controllers/        # Request Handlers & Business Controllers
+|   |-- Models/             # Domain Entities & Database Wrappers
+|   |-- Services/           # Reusable Application Services & Logic
+|   |-- Middleware/         # HTTP Middleware & Request Filters
+|   |-- Config/             # System Configuration & Database Connector
+|-- config/                 # Environment and App Config Files
+|-- tests/                  # PHPUnit Test Suite
+|-- public/                 # Web Entry Point (index.php)
+|-- .env.example            # Environment variables template
+|-- composer.json           # Dependency & Autoload definitions
+|-- README.md               # Documentation
 `
 
 ---
 
-## ðŸ§ª Running Tests
+## Running Tests
 
 Run the test suite using PHPUnit:
 
@@ -79,7 +79,7 @@ Run the test suite using PHPUnit:
 
 ---
 
-## ðŸ‘¤ Author
+## Author
 
 **Riazul Islam Rifat**
 * GitHub: [@code-with-rifat](https://github.com/code-with-rifat)
@@ -87,6 +87,6 @@ Run the test suite using PHPUnit:
 
 ---
 
-## ðŸ“„ License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
